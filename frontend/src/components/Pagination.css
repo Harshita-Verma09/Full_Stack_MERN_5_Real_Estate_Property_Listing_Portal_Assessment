@@ -1,0 +1,15 @@
+.pagination{
+
+display:flex;
+justify-content:center;
+gap:20px;
+margin:30px;
+
+}
+
+.pagination button{
+
+padding:10px 20px;
+cursor:pointer;
+
+}

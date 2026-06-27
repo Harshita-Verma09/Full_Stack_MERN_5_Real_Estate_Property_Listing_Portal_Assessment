@@ -1,0 +1,80 @@
+Name: Real Estate Property Listing Portal
+
+Features:
+- Property listing with add, edit, delete operations.
+- Search across properties (client-side / server-side search).
+- Pagination for listing pages to handle large result sets.
+- Toast notifications for user feedback (uses react-toastify).
+- Responsive UI with property cards and detail views.
+
+Workflow:
+- User visits the Home page which shows paginated property listings.
+- User can search or filter results; pagination updates accordingly.
+- Click a property to view details on the Property Details page.
+- Authenticated users (if enabled) can add or edit property details using the Add / Edit pages.
+- Client uses Axios to call backend API endpoints; backend persists data in MongoDB via Mongoose.
+- Toast notifications show success / error messages on actions.
+
+Technology:
+- Backend: Node.js, Express, MongoDB (via Mongoose), dotenv, CORS, Morgan
+- Frontend: React, Vite, React Router, Axios, React-Toastify
+- Dev tools: nodemon (backend), Vite dev server (frontend)
+
+System Design Diagrams (placeholders):
+- Architecture diagram: https://example.com/diagram-architecture.png  (replace with real image)
+- Data flow / sequence: https://example.com/diagram-dataflow.png  (replace with real image)
+
+Folder structure:
+- backend/
+  - package.json
+  - server.js
+  - config/
+    - db.js
+  - controllers/
+    - propertyController.js
+  - middleware/
+    - errorMiddleware.js
+  - models/
+    - Property.js
+  - routes/
+    - propertyRoutes.js
+
+- frontend/
+  - package.json
+  - index.html
+  - vite.config.js
+  - public/
+  - src/
+    - main.jsx
+    - App.jsx
+    - components/
+      - Navbar.jsx
+      - PropertyCard.jsx
+      - Pagination.jsx
+      - SearchFilter.jsx
+      - Loader.jsx
+    - pages/
+      - Home.jsx
+      - AddProperty.jsx
+      - EditProperty.jsx
+      - PropertyDetails.jsx
+    - services/
+      - api.js
+
+Notes:
+- Toast notifications are implemented using `react-toastify` in the frontend.
+- Pagination and search features are implemented in the frontend components and may call backend endpoints for server-side filtering.
+
+How to run (local development):
+1. Backend
+   - cd backend
+   - npm install
+   - copy .env.example to .env and set MONGO_URI (if present)
+   - npm run dev
+
+2. Frontend
+   - cd frontend
+   - npm install
+   - npm run dev
+
+Replace the placeholder system diagrams with your actual images by updating the links above.
