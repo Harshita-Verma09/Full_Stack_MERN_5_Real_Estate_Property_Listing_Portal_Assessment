@@ -1,8 +1,6 @@
 # Real Estate Property Listing Portal
 
-## Name
 
-Real Estate Property Listing Portal
 
 ## Features
 
@@ -31,8 +29,8 @@ Real Estate Property Listing Portal
 
 Replace these placeholder links with your real images later:
 
-- Architecture diagram: https://example.com/architecture-diagram.png
-- Data flow / Sequence diagram: https://example.com/dataflow-diagram.png
+- ScreenShot: https://res.cloudinary.com/dlwijjefj/image/upload/v1782583790/kmvicpbodtuq4dkyngmu.png
+
 
 ## Folder Structure
 
