@@ -25,12 +25,6 @@
 - Frontend: React, Vite, React Router, Axios, react-toastify
 - Dev tools: nodemon (backend), Vite dev server (frontend)
 
-## System Design Diagrams (placeholder images)
-
-Replace these placeholder links with your real images later:
-
-- ScreenShot: https://res.cloudinary.com/dlwijjefj/image/upload/v1782583790/kmvicpbodtuq4dkyngmu.png
-
 
 ## Folder Structure
 
@@ -104,4 +98,4 @@ npm run dev
 
 ## Images / Uploads
 
-At the end you wanted to upload two images: update the System Design Diagrams links above with your real image URLs or upload files and I can update these links for you.
+- ScreenShot: https://res.cloudinary.com/dlwijjefj/image/upload/v1782583790/kmvicpbodtuq4dkyngmu.png
